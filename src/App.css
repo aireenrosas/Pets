@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f6f8fc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.OurPets {
+  background-color: #61524a;
+  color: white;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+
+.Menu {
+  background-color: #61524a;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+}
+
+.Button {
+  background-color: #f1ae6a;
+}
+
+.Descripcion {
+  /* margin: calc(50px + 2vmin); */
+  margin-left: calc(20px + 20%);
+  margin-right: calc(20px + 20%);
+  font-size: calc(19px);
+}
+
+.Titulo {
+  margin-top: calc(20% + 2vmin);
+}
+
+.AboutAs {
+  margin-top: calc(20px + 2vmin);
+  margin-left: calc(20px + 20%);
+  margin-right: calc(20px + 20%);
+}
+.Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MagenCentrado{
+  margin: calc(5px + 5%);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
